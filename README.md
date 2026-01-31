@@ -11,12 +11,12 @@ Tasks 1 and 2 have been implemented and deployed via Streamlit.
 
 ## Tasks Completed  
 
-### ✅ Task 1: Language Translation Tool  
+### Task 1: Language Translation Tool  
 - User interface to enter text and select source & target languages.  
 - Uses translation APIs (Google Translate or Microsoft Translator) to process input.  
 - Displays translated text clearly on the screen.   
 
-### ✅ Task 2: Chatbot for FAQs  
+### Task 2: Chatbot for FAQs  
 - Collects FAQs related to a topic or product.  
 - Preprocesses text using NLP libraries (NLTK / SpaCy).  
 - Matches user questions with the most similar FAQ using cosine similarity.  
