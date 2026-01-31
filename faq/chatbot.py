@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import nltk
 import string
@@ -11,9 +12,11 @@ nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.download('stopwords')
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CSV_PATH = os.path.join(BASE_DIR, "Mental_Health_FAQ.csv")
 
-# Load CSV
-df = pd.read_csv("Mental_Health_FAQ.csv", encoding="latin1")
+df = pd.read_csv(CSV_PATH, encoding="latin1")
+
 
 stop_words = set(stopwords.words('english'))
 
